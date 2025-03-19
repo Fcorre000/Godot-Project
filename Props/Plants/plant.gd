@@ -6,7 +6,8 @@ func _ready() -> void:
 	$HitBox.Damaged.connect(TakeDamage)
 	pass # Replace with function body.
 
-#Test
+
 func TakeDamage( _damage : int) -> void:
 	queue_free()
+	
 	pass
